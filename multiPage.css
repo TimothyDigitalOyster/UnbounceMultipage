@@ -1,0 +1,120 @@
+<style>
+html, * {
+    -webkit-font-smoothing: antialiased !important;
+}
+
+/* Style Form */
+
+	.multistep #fields{
+  		height: auto !important;
+		}
+
+	.multistep #fields .step{
+    	height: auto !important;
+    	position: absolute;
+    	top: 0;
+    	display: none;
+		}
+
+	.multistep #fields .step.active{
+    	position: relative;
+		}
+
+	.multistep #fields .step .lp-pom-form-field{
+  		position: relative !important;
+  		top: auto !important;
+		}
+
+	.multistep .lp-pom-button{
+  		position: relative !important;
+  		top: 0 !important;
+  		width: 60% !important;
+  		display: inline-block !important;
+  		float: right;
+      	letter-spacing: 2px !important;
+      	font-weight: 700 !important;
+    	text-transform: uppercase !important;
+		}
+
+	.multistep .lp-pom-button.back-button{
+ 		margin-right: 0;
+  		float: left;
+  		opacity: 0.7 !important;
+  		background-color: #f1f1f1 !important;
+      	color: #636363 !important;
+  		width: 35% !important;
+  		letter-spacing: 2px !important;
+      	font-weight: 700 !important;
+    	text-transform: uppercase !important;
+		}
+
+	.multistep.initial .lp-pom-button.back-button{
+  		display: none !important;
+		}
+
+	#lp-pom-form-636 .lp-pom-form-field .text{
+  		font-family:'Montserrat'!important;
+    	font-weight: 700 !important;
+    	text-transform: uppercase !important;
+    	color: #3F4144 !important;
+  		font-size: 12px !important;
+    	letter-spacing: 2px !important;
+  		}
+
+    #lp-pom-form-636 .lp-pom-form-field select {
+    	background-color: #ffffff !important;
+    	border-radius: 20px;
+    	font-family:'Montserrat'!important;
+   		font-weight: 700 !important;
+    	text-transform: uppercase !important;
+    	color: #3F4144 !important;
+  		font-size: 11px !important;
+    	letter-spacing: 1px !important;
+		}
+
+
+/* Style Mobile */
+
+@media only screen and (max-width: 525px) {
+  .lp-form-errors{
+  	position: absolute !important;
+  	clear: both;
+  	float: right;
+  	margin-top: 20px;
+  	top: -120px !important;
+    left: 0 !important;
+  	z-index: 100;
+}
+  }
+
+
+/* Style Errors */
+
+	.lp-form-errors{
+ 		position: relative !important;
+ 		clear: both;
+  		float: right;
+ 		margin-top: 20px;
+  		top: -200px !important;
+    	left: -320px !important;
+  		z-index: 100;
+		}
+
+	.lp-form-errors div.content li{
+  		list-style: none !important;
+  		margin: 0 0 5px 0 !important;
+		}
+
+	.lp-form-errors:after {
+  		position: absolute;
+  		top: -7px;
+  		right: 55px;
+  		display: inline-block;
+  		border-right: 7px solid transparent;
+  		border-bottom: 7px solid red;
+  		border-left: 7px solid transparent;
+  		border-bottom-color: #661414;
+  		content: '';
+		}
+
+</style>
